@@ -1,0 +1,26 @@
+.bg_navigation{
+    background: white;
+    width: 504px;
+    position: fixed;
+}
+
+.scrollbox_start111{
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 816px;
+}
+
+@media (max-width: 767px) {
+    .bg_navigation{
+        background: white;
+        width: 100%;  
+        position: fixed; 
+    }
+}
+
+
+
+
+
+

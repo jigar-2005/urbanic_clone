@@ -1,0 +1,19 @@
+.bg_navigation{
+    background: white;
+    width: 504px;
+    position: fixed;
+}
+
+@media (max-width: 767px) {
+    .bg_navigation{
+        background: white;
+        width: 100%;  
+        position: fixed; 
+    }
+}
+
+
+
+
+
+

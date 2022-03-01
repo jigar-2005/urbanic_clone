@@ -1,0 +1,6 @@
+.sticky-div {
+    position: sticky;
+    top: 0;
+    background-color: White;
+    box-shadow: 0px 2px 0px 0px #dfd8d8;
+}

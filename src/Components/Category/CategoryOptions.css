@@ -1,0 +1,6 @@
+.CategoryOptions_scrollbox_start{
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 800px;
+}

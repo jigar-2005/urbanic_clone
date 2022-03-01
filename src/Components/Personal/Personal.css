@@ -1,0 +1,6 @@
+.scrollbox_start{
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 864px;
+}

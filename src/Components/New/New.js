@@ -8,10 +8,8 @@ function New() {
         <>
             <NewHeader />
             <div style={{ paddingTop: "61px" }}>
-                <div className="scrollbox_start">
-                    <NewItems />
-                    <Footer />
-                </div>
+                <NewItems />
+                <Footer currentPage="New" />
             </div>
         </>
     );

@@ -1,19 +1,17 @@
 import Footer from '../Footer/Footer';
 import HeaderSearchbar from '../Header Searchbar/HeaderSearchbar';
-import CategoryOptions from './CategoryOptions';
+import CategoryOptionPyjamasAndLingerie from './CategoryOptionPyjamasAndLingerie';
 
-function Category() {
+function CategoryPyjamasAndLingerie() {
     return (
         <>
             <HeaderSearchbar />
             <div style={{ paddingTop: "61px" }}>
-                <CategoryOptions currentPage='Category' />
+                <CategoryOptionPyjamasAndLingerie currentPage='CategoryOptionPyjamasAndLingerie' />
                 <Footer currentPage='Category' />
             </div>
         </>
     );
 }
 
-export default Category;
-
-
+export default CategoryPyjamasAndLingerie;

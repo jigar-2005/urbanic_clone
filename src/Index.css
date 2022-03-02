@@ -6,6 +6,12 @@ body{
 .making_mobile_size_scrn{
     width: 504px;   
 }
+.side_scrollbox_start{
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
 @media (max-width: 767px) {
     .making_mobile_size_scrn{
         width: 100%;

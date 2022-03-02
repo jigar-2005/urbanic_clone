@@ -14,6 +14,7 @@ function HottestTrends() {
                     <img src="https://img4.urbanic.com/7a4df0e6a9894f4ba476837ebb03205c" alt="#" width="100%" />
                 </div>
             </div>
+            <br />
         </>
     );
 }

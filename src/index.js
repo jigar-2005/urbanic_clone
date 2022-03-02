@@ -6,7 +6,7 @@ import Routing from "./Routing";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='container-md making_mobile_size_scrn p-0'>
+    <div className='container-md making_mobile_size_scrn p-0 side_scrollbox_start'>
       <Routing />
     </div>
   </React.StrictMode>,

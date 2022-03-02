@@ -1,19 +1,19 @@
 import Footer from '../Footer/Footer';
 import HeaderSearchbar from '../Header Searchbar/HeaderSearchbar';
-import CategoryOptions from './CategoryOptions';
+import CategoryOptionCurve from './CategoryOptionCurve';
 
-function Category() {
+function CategoryCurve() {
     return (
         <>
             <HeaderSearchbar />
             <div style={{ paddingTop: "61px" }}>
-                <CategoryOptions currentPage='Category' />
+                <CategoryOptionCurve currentPage='CategoryOptionCurve' />
                 <Footer currentPage='Category' />
             </div>
         </>
     );
 }
 
-export default Category;
+export default CategoryCurve;
 
 

@@ -1,19 +1,19 @@
 import Footer from '../Footer/Footer';
 import HeaderSearchbar from '../Header Searchbar/HeaderSearchbar';
-import CategoryOptions from './CategoryOptions';
+import CategoryOptionSports from './CategoryOptionSports';
 
-function Category() {
+function CategorySports() {
     return (
         <>
             <HeaderSearchbar />
             <div style={{ paddingTop: "61px" }}>
-                <CategoryOptions currentPage='Category' />
+                <CategoryOptionSports currentPage='CategoryOptionSports' />
                 <Footer currentPage='Category' />
             </div>
         </>
     );
 }
 
-export default Category;
+export default CategorySports;
 
 

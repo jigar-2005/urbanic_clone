@@ -1,19 +1,19 @@
 import Footer from '../Footer/Footer';
 import HeaderSearchbar from '../Header Searchbar/HeaderSearchbar';
-import CategoryOptions from './CategoryOptions';
+import CategoryOptionInspire from './CategoryOptionInspire';
 
-function Category() {
+function CategoryInspire() {
     return (
         <>
             <HeaderSearchbar />
             <div style={{ paddingTop: "61px" }}>
-                <CategoryOptions currentPage='Category' />
+                <CategoryOptionInspire currentPage='CategoryOptionInspire' />
                 <Footer currentPage='Category' />
             </div>
         </>
     );
 }
 
-export default Category;
+export default CategoryInspire;
 
 

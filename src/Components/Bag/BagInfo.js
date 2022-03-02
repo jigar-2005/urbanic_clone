@@ -3,7 +3,7 @@
 function BagInfo() {
     return (
         <>
-            <div className="py-1" style={{ background: "#F0F0F0" }}>
+            <div className="py-1" style={{ background: "#F0F0F0", marginTop:"61px" }}>
                 <div className="row m-3">
                     <div className="col-9">
                         <h6 style={{ fontSize: "18px" }}>Login in to syn your shopping bag.</h6>

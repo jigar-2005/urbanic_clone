@@ -1,6 +1,6 @@
-.sticky-div {
+.CategoryNavigationSticky {
     position: sticky;
-    top: 0;
+    top: 61px;
     background-color: White;
     box-shadow: 0px 2px 0px 0px #dfd8d8;
 }

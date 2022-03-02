@@ -4,7 +4,7 @@ function NewItems() {
     return (
         <>
             <img src="https://img4.urbanic.com/eedbf7016f54443b9f91a34dcd325332" className="mb-2" alt="#" width="100%" />
-            <div className="date row text-center sticky-div">
+            <div className="date row text-center NewHeaderSticky">
                 <div className="col-3 py-2 text-light" style={{ background: "#333333" }}><h4>Today</h4></div>
                 <div className="col-3 py-2" style={{ color: "#333333" }}><h4>Yesterday</h4></div>
                 <div className="col-3 py-2" style={{ color: "#333333" }}><h4>27/2</h4></div>

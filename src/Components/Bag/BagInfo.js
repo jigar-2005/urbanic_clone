@@ -1,15 +1,17 @@
-
+import { Link } from "react-router-dom";
 
 function BagInfo() {
     return (
         <>
-            <div className="py-1" style={{ background: "#F0F0F0", marginTop:"61px" }}>
+            <div className="py-1" style={{ background: "#F0F0F0", marginTop: "61px" }}>
                 <div className="row m-3">
                     <div className="col-9">
                         <h6 style={{ fontSize: "18px" }}>Login in to syn your shopping bag.</h6>
                     </div>
                     <div className="col-3">
-                        <button class="btn text-light" type="submit" style={{ marginTop: "-5px", background: "#333333", fontSize: "18px", paddingTop: "0px", paddingBottom: "5px" }}>Login</button>
+                        <Link to="/login">
+                            <button class="btn text-light" type="submit" style={{ marginTop: "-5px", background: "#333333", fontSize: "18px", paddingTop: "0px", paddingBottom: "5px" }}>Login</button>
+                        </Link>
                     </div>
                 </div>
                 <img src="https://img4.urbanic.com/9819403cff0c4c728ee5c565b2742b4f" alt="#" style={{ width: "100%", marginBottom: "10px" }} />

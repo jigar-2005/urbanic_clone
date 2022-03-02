@@ -1,5 +1,6 @@
 import Footer from '../Footer/Footer';
 import './Personal.css'
+import { Link } from "react-router-dom";
 
 function Personal() {
     return (
@@ -10,7 +11,9 @@ function Personal() {
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAABKVBMVEUAAAD////+/v7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8FAQHq6url5eU/PDytrKzCwcFkYWG+vb12dHSYlpZcWVk5NjYzLy/5+fmAfn5DQEAfGxuBf38bFxcSDg4OCgqpqKh+fHwJBQXf39/19fXx8fHW1taxsLBubGzt7e3i4uKRj49TUFBLSEhIRUUrJycmIiLa2trNzc23trafnp6bmZmWlJR6eHhycHBqaGhhXl7R0dHJyMiLiYmJh4eFg4NoZWXT09NWU1NPTEyioaHc3Nyko6Ps7Ozr4OGdAAAAJXRSTlMAA/7F7Dv27+bSjYljUEotHBL539vTzsqqpqCTaWFZTkgVDLm4R56G3wAABdRJREFUeNq80gmygyAURNGngKAoYOYYM5hK73+LfwGJfkTgrKCrblOYXtz15cPqPd/t+L5mn4u+i54y6bsb4/iJs1uXesfbNKcSi8pTY96USPG6VvBSXV8FxWcbhRVUYymu7ozVzl3EAo8jghwfRZwB7QHBDm2EEaLGJrWgbaYBmw3TlgajRARyDK7hGCJhjoIYjmi4CYmgEZUutkbIH8MqRKcsrSAkEpCCvD0rJFE9yVNbIpGy9VyAhFqvCiUSKj1aiApJVYL+YSUSk5YWOYXklKMFBUMGrKB5GllommWQiaEZjiMT7gKOkOcOIzIa6YdJIiM50bcBWQ30RSCzP2LrRSdxIAzD8FDRiMY1eDZGYzTfV0DxAAsLKCAqAkblILK6uIf7v4r9ww6FAbTJJjpPQjIt0/DStJ1OqxGBED5ZKPCfK/THrduBFXy6FfM07MCCHSNhFRasqiELsGJBDazDinXlWYQli6pvDpbMKS0wC0tmAzphF9bs6oRNWLOpevZmYM3Mnn5jtOiLvfvBvCfWYNGaEmEHFjlhW+uDuU5swaotSZiCVVOSEIRVQaXCEG65UCi4SUAU3ULkGveNb1r9FT1Osg8j4mfoKzXliBK0h+fjjuyry76bB/TdP1a67Xa3VUZPWL+8n5J0oaXjAGIk224hViUrLkS5TjJ9dFXLZlN1DItmBlVfSSa8zdQxxAHJQ2h3VZ5fQLitq176tNp+J+EI4oW8TUJESEYBuBWpcuApk5dGAltvJ8RyPIMWaUFsq3m/BFTJ8+EEOFHyBR5pPBkk5Enmv7+VEMvLyONCzKsN34RL8tZIwD2Zc9CXkK0LL+FngjK/ODmhlCNLMG2ofd+EMsmikeDkyA60DsVvL+HkNU/yanJCijzFiH015ZOg/7ORgAwZh3aUJVkbJOCZIj6WoAeN8QdDyDehqX9ZJ+hRBP846UaezLuDBCdKMn0xIeFQH2cIqWW/hOsM+WAmPJK/oB1kixWSN4ME/MmRfJqQkCYzGLWsgj4Jd/JVC0ZCncwUoHWfelNPhxJwTHE5nqDnmYJq6Z2E6I9WLcfEGbyExEG8WSVTXkEyG5cPyTsvQdQole5ogqMvGtPSX2bsbTlRIAgDcBVvsA+Qu/QvuqUFWCacFAWDrhijqwTFw272/R9iBVqZgVRyy9x4wBq/mp6enpkvCbuJMwOipCREYRhudVjaLbV8Uyli/CwS1Aw1+4wwqBO+DYQDWJMyEPy/sHjNP2+zIpHhRAJ9FJlaD4RRD8T30zEFLiKBO7Xyn4/t1zwrACRMYBoA66VCWABWfTpyUrZFgikRPBsYVwik8cO36N/02nYAAonQMrPAVwhbAMtaUvLSFAsEZXgSCXQBflYJa347mLtZy/o2FZFAPgAMZcIJwKG+ND3mr3uBkNh9idADOlXCqgi+ir9EPMRYCQRehyAQePAWVcIjl6nlsByieUwSYQ1sRAKTz0QU6vw5BRDLhHFUJ7SeeEQ5o4syxff/wb3U/DFbMuGdOxAIil70bmy4sxEA25MI1K0T6NUSVwanKNYPbG4jmmYwd9ghmUBt2KpMOAC6QjTh0sDz2ZEJFNQJ9B7BJW6nvLeH+62rp8F0178Xpk9VwvIJZ0UgqDEweCEid063tgFwqRC8RZ1A4549yxK53+2t/WLj9qPcgIVHrdfxWPtsGMaRK/I0/LUbqW/Xb9pBEFwM/fiRj+N8O7pl0eb6UHdayU7rloYkX9s7++uz2FHvCH+fpulh1eftaxM28U04yjTgQNeAY20DDvcNuOL4z6wdCAAAAAAI8rdOI417CD1B7gqiX5A+hwAcZPAAAwYSCWBo4LEACQcqDcA4YPNhHggWCs3cMQ0AAAzDMDDlz3Hn1LuPecQRQhIhpwGiIiGtAgIzIbMTYkMhuQTCUyG/FSJkIcUWgnQhyxdwgkA0BKgicB0BLQl0iwBsAuMTMCNBOgnYKvBeAjkb1JsA7wT7N+YHvYDILyAyLCAOaT6suv9J5y4AAAAASUVORK5CYII=" alt="#" width="91px" height="91px" />
                     </div>
                     <div className="col-9">
-                        <button class="btn text-light px-4" type="submit" style={{ marginTop: "25px", background: "#333333", fontSize: "18px" }}><b>Log In/Sign Up</b></button>
+                        <Link to="/login">
+                            <button class="btn text-light px-4" type="submit" style={{ marginTop: "25px", background: "#333333", fontSize: "18px" }}><b>Log In/Sign Up</b></button>
+                        </Link>
                     </div>
                     <div className="col-4 text-center">
                         <h5><span style={{ fontSize: "30px" }}>0</span><br />Coupons</h5>

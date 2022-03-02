@@ -1,0 +1,10 @@
+.text-line {
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #d1d1d1 1px;
+    padding: 10px 10px;
+}

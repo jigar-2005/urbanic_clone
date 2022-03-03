@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <div className="pb-2" style={{ boxShadow: "0 2px gray", width: "487px", position: "absolute", background: "white" }}>
+        <div className="pb-2 topNavigation" style={{ boxShadow: "0 2px gray", position: "absolute", background: "white" }}>
             <div className='row px-3' style={{ height: "61px", paddingTop: "17px" }}>
-                <div className="col-1 text-center">
+                <div className="col-1" style={{ textAign: "left" }}>
                     <Link to="/">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAa5JREFUWAnl2LFOhDAYAGALRCYHNxcWdyZzJCzAahh1MyYuRgddeQgSJy/RTRfjyCsQJgzxAXwOA4MJYH+SmnDHHdAr6U/s0tCW9svfhvyF1HWt7s2oKDOyNtT/DXZd99hxnJMpd01YhC3Lusnz/Ksoig/bts+mQgsBA7aqqiVFEoCWZXmEFryKpdDUNM2XqcBkl89aF9YwjNMoir6nAnMfCRlYCAIXWBaWCywTOxosGzsKjAE7GIwFOwiMCdsLxobdCsaI3QjGiu0EY8augbFjW+A5YAHcZGtwU4DkG56hkWZwFSGEK8+A9ycqP4qiPDQoCjykizRYWAwhFlj79JJw34CTJPmk+idoRVwgwo+tBH6xWCxptG8Zmg54C8PwyvO8mrXJrlvnNMuyO3ocnhmKbsFFEASvcRz/HRfWJ6tugQGBHb0Gxo7uBGNGbwRjRW8FY0T3grGhB4ExoQeDsaBHgTGgR4Nlo7nAMtHcYFnoVrYGCJ6ymuVpmnaZpuk7z1x97+wUYTZ5R8J0wPpE10LAgAK0ruvnqqpe+76P8w+86OgNmU9YhIcsJmLM7MC/JV5rQZDaNqsAAAAASUVORK5CYII=" width="25px" height="30px" alt="#" />
                     </Link>
                 </div>
-                <div className="col-9" style={{ marginTop: "-5px" }}>
+                <div className="col-9 text-center" style={{ marginTop: "-5px" }}>
                     <input className="px-3" type="text" name="searchdata" placeholder=" Search Urbanic" style={{ height: "40px", background: "#EEEEEE", border: "0px", fontSize: "16px", borderRadius: "5px", width: "100%" }} />
                 </div>
                 <div className="col-2">

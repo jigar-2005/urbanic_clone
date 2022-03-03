@@ -1,5 +1,11 @@
-.bg_top_navigation{
-    width: 486px;
+
+.topNavigation{
+    width: 487px;
+}
+@media (max-width: 767px) {
+    .topNavigation{
+        width: 100%;
+    }
 }
 
 .NewHeaderSticky {
